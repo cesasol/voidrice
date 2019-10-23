@@ -1,0 +1,17 @@
+#!/bin/bash
+# Despertador
+
+# Espera un minuto a que esto arranque
+sleep 60s
+# Limpia lo que haya, no me importa
+mpc clear
+# Lista los artistas por que quiero obtener un random
+mpc list artist
+# Añade un artista
+mpc search '(artist == "faun")' | mpc add
+# Asegurate de que no esté random
+mpc shuffle off
+# Alarma
+mpc play
+mpc volume 100
+

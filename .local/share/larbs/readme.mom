@@ -374,7 +374,7 @@ Once you have successfully added your email address(es), you can open your mail 
 You can sync your mail by pressing \f(CWMod+F8\fP and you can set a cronjob to sync mail every several minutes by running \f(CWmw cron\fP.
 .HEADING 2 "How do I set up my music?"
 .PP
-By default, mpd, the music daemon assumes that \f(CW~/Music\fP is your music directory.
+By default, mpd, the music daemon assumes that \f(CW~/Música\fP is your music directory.
 This can be changed in \f(CW~/.config/mpd/mpd.conf\fP.
 When you add music to your music folder, you may have to run \f(CWmpc up\fP in the terminal to update the database.
 mpd is controlled by ncmpcpp, which is accessible by \f(CWMod+m\fP.

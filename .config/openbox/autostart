@@ -1,0 +1,10 @@
+xset -b
+(sleep 1s & compton) &
+(sleep 1s & nitrogen --restore) &
+(sleep 1s & tint2) &
+(sleep 1s & setxkbmap es) &
+(sleep 1s & conky) &
+(sleep 1s & copyq) &
+(sleep 1s & discord) &
+(sleep 1s & telegram-desktop) &
+(sleep 1s & sh ~/bin/alarm) &

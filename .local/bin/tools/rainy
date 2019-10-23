@@ -1,0 +1,7 @@
+#!/bin/zsh
+rainymood() {
+    FILE=$((RANDOM%8))
+    URL="https://rainymood.com/audio1110/${FILE}.ogg"
+    mpv "$URL" && rainymood
+}
+rainymood
